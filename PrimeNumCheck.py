@@ -1,5 +1,5 @@
 
-def primenum():
+def Primenum():
 
     num = int(input("Give me a number you think is prime: "))
 
@@ -9,11 +9,11 @@ def primenum():
             if (num % i) == 0:
                 print(num,"Is not a prime number")
                 print(i,"times",num//i,"is",num)
-                primenum()
+                Primenum()
                 break
         else:
             print(num,"Is indeed a prime number")
-            primenum()
+            Primenum()
     else:
         print(num,"Will never be prime")
-primenum()
+Primenum()
